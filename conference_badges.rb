@@ -11,8 +11,8 @@ def batch_badge_creator(attendees)
 end 
 
 def batch_badge_creator(attendees) 
-    badge_names = []
       attendees.collect do |attendee|
+    badge_names = []
         badge_names << "Hello, my name is #{attendee}."
       end 
       badge_names
